@@ -6,3 +6,11 @@
     color: white !important;
     font-weight: bold;
 }
+
+.fa-shopping-cart, .fa-user-circle{
+    font-size: 32px !important; 
+}
+
+.fa-truck{
+    font-size: 50px !important;
+}

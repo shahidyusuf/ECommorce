@@ -39,3 +39,44 @@ h3{
     flex-wrap: wrap;
     
 }
+.heading {
+    text-align: center;
+    font-weight: bold;
+    color: #D32F2F;
+    margin: 20px;
+    }
+    .heading > h1 {
+        text-shadow: 2px 2px 4px black;
+    }
+    .footer {
+        width: 100%;
+        background-color: #D32F2F;
+        height: 70px;
+    }
+    .footer > div {
+     text-align: center !important;
+     align-items: center !important;
+    }
+    h4 {
+        color: white;
+    }
+@media screen and (max-width: 600px) {
+    .card1, .card2, .card3{
+width: 100%;
+    }
+}
+.card {
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 5px;
+}
+.card-text {
+    font-weight: bold;
+}
+.btn-primary {
+    width: 100%;
+    background-color:#D32F2F ;
+}
+.newArrivals {
+    margin-top: 50px;
+}
